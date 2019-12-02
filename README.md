@@ -1,2 +1,2 @@
 # resume
-Robert Laverty's Career Résumé
+Robert Laverty's Resume
