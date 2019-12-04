@@ -3,40 +3,13 @@
 	"version": "0.0.0",
 	"description": "Robert Laverty's Resume",
 	"scripts": {
-		"del": "del docs node_modules",
-		"serve": "vue-cli-service serve",
-		"build": "vue-cli-service build"
-	},
-	"dependencies": {
-		"@ibm/plex": "^4.0.1",
-		"@mdi/font": "^4.6.95",
-		"core-js": "^3.4.5",
-		"lodash": "^4.17.15",
-		"tslib": "^1.10.0",
-		"vue": "^2.6.10",
-		"vue-property-decorator": "^8.3.0",
-		"vuetify": "^2.1.12"
+		"start": "live-server --verbose --no-browser --no-css-inject --watch='*.css,*.html,*.js'",
+		"_start": "CHOKIDAR_USEPOLLING=1 CHOKIDAR_PRINT_FSEVENTS_REQUIRE_ERROR=1 live-server --no-browser --no-css-inject --ignore=node_modules --verbose",
+		"_postinstall": "sd --string-mode '\"chokidar\": \"^2.0.4\",' '\"chokidar\": \"latest\",' node_modules/live-server/package.json"
 	},
 	"devDependencies": {
-		"@types/lodash": "^4.14.149",
-		"@types/node": "^12.12.14",
-		"@vue/cli-plugin-babel": "^4.1.1",
-		"@vue/cli-plugin-typescript": "^4.1.1",
-		"@vue/cli-service": "^4.1.1",
-		"deepmerge": "^4.2.2",
-		"del-cli": "^3.0.0",
-		"fibers": "^4.0.2",
-		"npm-run-all": "^4.1.5",
-		"sass": "^1.23.7",
-		"sass-loader": "^8.0.0",
-		"ts-vue-plugin": "^0.1.2",
-		"typescript": "^3.5.3",
-		"vue-template-compiler": "^2.6.10"
+		"live-server": "^1.2.1"
 	},
-	"browserslist": [
-		"> 1%",
-		"last 2 versions"
-	],
 	"license": "Unlicense",
 	"author": "Robert Laverty <roblav96@gmail.com> (https://github.com/roblav96)",
 	"homepage": "https://github.com/roblav96/resume#readme",
