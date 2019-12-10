@@ -1,25 +1,22 @@
 import App from './App.vue'
-import Vuetify from 'vuetify/lib'
-import { Vue, Component } from 'vue-property-decorator'
+import store from './store'
+import Vue from 'vue'
+import Vuetify from 'vuetify'
 
-// @Component({
-// 	render: h => h(App),
-// })
-// class Vm extends Vue {
-// 	created() {
-// 		setTimeout(() => this.$mount('#app'), 0)
-// 	}
-// 	mounted() {
-// 		console.log(`mounted`)
-// 	}
-// }
-
-const vm = new Vue({
-	vuetify: new Vuetify(),
+export const vm = new Vue({
+	data: store,
+	render: h => h(App),
+	vuetify: new Vuetify({
+		icons: { iconfont: 'mdi' },
+		theme: { dark: true },
+	}),
 }).$mount('#app')
-console.log(`vm %O ->`, vm)
 export default vm
 
 if (process.env.NODE_ENV == 'development') {
 	Object.assign(window, { vm })
+	console.log(`vm.$root ->`, vm.$root)
+	console.log(`vm.$root.$data ->`, vm.$root.$data)
+	console.log(`module ->`, module)
+	console.log(`module.hot ->`, module.hot)
 }
