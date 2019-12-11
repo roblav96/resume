@@ -1,5 +1,5 @@
 <template>
-	<v-system-bar app height="24" color="primary">
+	<v-system-bar app :height="height" color="primary">
 		<v-spacer></v-spacer>
 		<v-icon>mdi-signal</v-icon>
 		<v-icon>mdi-signal-5g</v-icon>
@@ -13,8 +13,9 @@ import { Vue, Component } from 'vue-property-decorator'
 
 @Component
 export default class SystemBar extends Vue {
+	height = 24
 	mounted() {
-		this.$vuetify.application.bar = 24
+		this.$vuetify.application.bar = this.height
 	}
 }
 </script>

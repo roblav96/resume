@@ -46,8 +46,11 @@
 </template>
 
 <script lang="ts">
+import store from '../store'
 import { Vue, Component } from 'vue-property-decorator'
 
 @Component
-export default class AppBar extends Vue {}
+export default class AppBar extends Vue {
+	store = store
+}
 </script>

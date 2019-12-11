@@ -11,6 +11,7 @@
 </template>
 
 <script lang="ts">
+import store from './store'
 import { Vue, Component } from 'vue-property-decorator'
 
 @Component({
@@ -23,9 +24,15 @@ import { Vue, Component } from 'vue-property-decorator'
 	},
 })
 export default class App extends Vue {
-	ready = false
+	ready = store.ready
 	mounted() {
 		setTimeout(() => (this.ready = true), 100)
 	}
 }
 </script>
+
+<style src="./assets/nerd-fonts-generated.css" />
+<style src="@ibm/plex/css/ibm-plex.css" />
+<style src="@mdi/font/css/materialdesignicons.css" />
+<style src="vuetify/dist/vuetify.css" />
+<style src="./styles.css" />

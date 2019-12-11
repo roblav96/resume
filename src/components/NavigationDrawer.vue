@@ -4,15 +4,15 @@
 		permanent
 		touchless
 		:clipped="$vuetify.breakpoint.smAndDown"
-		:mini-variant="$root.$data.mini && $vuetify.breakpoint.smAndDown"
-		@click.native="$root.$data.mini = false"
+		:mini-variant="store.mini && $vuetify.breakpoint.smAndDown"
+		@click.native="store.mini = false"
 	>
 		<v-img eager src="https://avatars1.githubusercontent.com/u/1457327"></v-img>
 
 		<template v-if="$vuetify.breakpoint.xsOnly">
 			<v-list>
 				<v-list-item
-					v-for="([href, icon, title], index) in socials"
+					v-for="([href, icon, title], index) in store.socials"
 					:key="index"
 					:href="href"
 					target="_blank"
@@ -29,7 +29,7 @@
 		</template>
 
 		<v-list>
-			<v-list-item v-for="([icon, title], index) in contacts" :key="index">
+			<v-list-item v-for="([href, icon, title], index) in store.contacts" :key="index">
 				<v-list-item-action>
 					<v-icon>{{ icon }}</v-icon>
 				</v-list-item-action>
@@ -42,7 +42,7 @@
 		<v-divider></v-divider>
 
 		<v-list>
-			<v-list-item v-for="([icon, title], index) in stacks" :key="index">
+			<v-list-item v-for="([icon, title], index) in store.stacks" :key="index">
 				<v-list-item-action>
 					<v-icon>{{ icon }}</v-icon>
 				</v-list-item-action>
@@ -55,8 +55,14 @@
 </template>
 
 <script lang="ts">
+import store from '../store'
 import { Vue, Component } from 'vue-property-decorator'
 
 @Component
-export default class NavigationDrawer extends Vue {}
+export default class NavigationDrawer extends Vue {
+	store = store
+	created() {
+		store.mini = this.$vuetify.breakpoint.smAndDown
+	}
+}
 </script>

@@ -1,3 +1,11 @@
+/* vuetify fixes */
+
+.v-application p {
+	margin-bottom: 0px;
+}
+
+/* typography */
+
 .v-application {
 	font-family: 'IBM Plex Sans', BlinkMacSystemFont, -apple-system, 'Segoe UI', 'Roboto', 'Oxygen',
 		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Helvetica', 'Arial',
@@ -9,26 +17,31 @@
 		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Helvetica', 'Arial',
 		sans-serif !important;
 }
+
 .v-application .display-3 {
 	font-family: 'IBM Plex Sans', BlinkMacSystemFont, -apple-system, 'Segoe UI', 'Roboto', 'Oxygen',
 		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Helvetica', 'Arial',
 		sans-serif !important;
 }
+
 .v-application .display-2 {
 	font-family: 'IBM Plex Sans', BlinkMacSystemFont, -apple-system, 'Segoe UI', 'Roboto', 'Oxygen',
 		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Helvetica', 'Arial',
 		sans-serif !important;
 }
+
 .v-application .display-1 {
 	font-family: 'IBM Plex Sans', BlinkMacSystemFont, -apple-system, 'Segoe UI', 'Roboto', 'Oxygen',
 		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Helvetica', 'Arial',
 		sans-serif !important;
 }
+
 .v-application .headline {
 	font-family: 'IBM Plex Sans', BlinkMacSystemFont, -apple-system, 'Segoe UI', 'Roboto', 'Oxygen',
 		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Helvetica', 'Arial',
 		sans-serif !important;
 }
+
 .v-application .title {
 	font-family: 'IBM Plex Sans', BlinkMacSystemFont, -apple-system, 'Segoe UI', 'Roboto', 'Oxygen',
 		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Helvetica', 'Arial',
@@ -42,8 +55,4 @@ samp,
 .font-mono {
 	font-family: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier',
 		monospace !important;
-}
-
-.v-application p {
-	margin-bottom: 0px;
 }

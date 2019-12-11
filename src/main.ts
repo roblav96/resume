@@ -1,15 +1,17 @@
-import './assets/nerd-fonts-generated.css'
-import '@ibm/plex/css/ibm-plex.css'
-import '@mdi/font/css/materialdesignicons.css'
-import 'vuetify/dist/vuetify.css'
-import './styles.css'
-
+import App from './App.vue'
 import Vue from 'vue'
+import Vuetify from 'vuetify'
+
 Vue.config.devtools = false
 Vue.config.performance = false
 Vue.config.productionTip = false
 
-import Vuetify from 'vuetify'
 Vue.use(Vuetify)
 
-import('./vm')
+new Vue({
+	render: h => h(App),
+	vuetify: new Vuetify({
+		icons: { iconfont: 'mdi' },
+		theme: { dark: true },
+	}),
+}).$mount('#app')
