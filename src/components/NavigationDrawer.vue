@@ -29,7 +29,12 @@
 		</template>
 
 		<v-list>
-			<v-list-item v-for="([href, icon, title], index) in store.contacts" :key="index">
+			<v-list-item
+				v-for="([href, icon, title], index) in store.contacts"
+				:key="index"
+				:href="href"
+				target="_blank"
+			>
 				<v-list-item-action>
 					<v-icon>{{ icon }}</v-icon>
 				</v-list-item-action>

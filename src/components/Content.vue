@@ -1,5 +1,5 @@
 <template>
-	<v-content>
+	<v-content @click.native="store.mini = true">
 		<v-container class="pa-4">
 			<v-card class="mb-4">
 				<v-card-title class="pb-2 primary--text">README.md</v-card-title>
@@ -54,10 +54,12 @@
 </template>
 
 <script lang="ts">
+import store from '../store'
 import { Vue, Component } from 'vue-property-decorator'
 
 @Component
 export default class Content extends Vue {
+	store = store
 	experiences = [
 		['logo', 'title', 'company', 'dates', 'desc', 'stack'],
 		['logo', 'title', 'company', 'dates', 'desc', 'stack'],

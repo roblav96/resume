@@ -9,8 +9,8 @@ export default Vue.observable({
 		['https://goo.gl/maps/m7GoP5YY2bd9NL167', 'mdi-google-maps', 'Boston, MA'],
 	],
 	socials: [
-		['https://github.com/roblav96', 'mdi-github-box', 'github/roblav96'],
-		['https://www.linkedin.com/in/roblav96/', 'mdi-linkedin-box', 'linkedin/roblav96'],
+		['https://github.com/roblav96', 'mdi-github-box', 'github/roblav96', 'roblav96'],
+		['https://www.linkedin.com/in/roblav96/', 'mdi-linkedin-box', 'linkedin/roblav96', 'roblav96'],
 	],
 	stacks: [
 		['nf-mdi-language_typescript', 'TypeScript'],
