@@ -24,12 +24,7 @@
 				<v-icon large>{{ icon }}</v-icon>
 				<span class="ml-1 text-lowercase">{{ subtitle }}</span>
 			</v-btn>
-			<v-btn
-				text
-				class="d-print-none"
-				href="https://roblav96.github.io/resume/Robert Laverty | Full-Stack Product Engineer.pdf"
-				target="_blank"
-			>
+			<v-btn text class="d-print-none" :href="pdfUrl" target="_blank">
 				<v-icon large>mdi-pdf-box</v-icon>
 			</v-btn>
 		</v-toolbar-items>
@@ -38,7 +33,7 @@
 			v-show="$vuetify.breakpoint.xsOnly"
 			icon
 			class="d-print-none"
-			href="https://roblav96.github.io/resume/Robert Laverty | Full-Stack Product Engineer.pdf"
+			:href="pdfUrl"
 			target="_blank"
 		>
 			<v-icon large>mdi-pdf-box</v-icon>
@@ -53,5 +48,8 @@ import { Vue, Component } from 'vue-property-decorator'
 @Component
 export default class AppBar extends Vue {
 	store = store
+	get pdfUrl() {
+		return `https://roblav96.github.io/resume/${document.title}.pdf`
+	}
 }
 </script>
