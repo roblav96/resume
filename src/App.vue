@@ -1,6 +1,6 @@
 <template>
 	<v-fade-transition>
-		<v-app v-show="ready">
+		<v-app v-show="store.ready">
 			<SystemBar></SystemBar>
 			<AppBar></AppBar>
 			<NavigationDrawer></NavigationDrawer>
@@ -24,9 +24,9 @@ import { Vue, Component } from 'vue-property-decorator'
 	},
 })
 export default class App extends Vue {
-	ready = store.ready
+	store = store
 	mounted() {
-		setTimeout(() => (this.ready = true), 100)
+		setTimeout(() => (this.store.ready = true), 100)
 	}
 }
 </script>

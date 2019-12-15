@@ -17,37 +17,35 @@
 			</v-card>
 
 			<v-card>
-				<v-card-title class="pb-2 primary--text">Experience</v-card-title>
-				<v-card-text>
-					<v-list-item>
-						<v-list-item-avatar size="48">
-							<v-img src="dell-emc.png"></v-img>
+				<v-card-title class="pb-0 primary--text">Experience</v-card-title>
+				<v-list class="px-2">
+					<v-list-item
+						three-line
+						v-for="({ logo, title, company, href, duration, description, stack },
+						index) in store.experiences"
+						:key="index"
+					>
+						<v-list-item-avatar color="white" size="48">
+							<v-img contain eager :alt="company" :src="logo"></v-img>
 						</v-list-item-avatar>
 						<v-list-item-content>
 							<v-list-item-title
-								class="d-flex align-baseline justify-space-between flex-row flex-sm-column"
+								class="mb-0 d-flex align-baseline justify-space-between flex-column flex-sm-row"
 							>
-								<p class="font-weight-medium">Lead Software Engineer</p>
-								<p class="caption text--secondary">May 2019 – Oct 2019</p>
+								<span class="font-weight-medium">{{ title }}</span>
+								<span class="caption text--secondary">{{ duration }}</span>
 							</v-list-item-title>
-							<v-list-item-subtitle>Lead Software Engineer</v-list-item-subtitle>
-							<v-list-item-subtitle>Lead Software Engineer</v-list-item-subtitle>
+							<v-list-item-title>
+								<a :href="href" target="_blank" class="text--primary">
+									{{ company }}
+								</a>
+							</v-list-item-title>
+							<v-list-item-subtitle>{{ description }}</v-list-item-subtitle>
+							<v-list-item-subtitle>• {{ stack }}</v-list-item-subtitle>
+							<v-list-item-subtitle>• {{ stack }}</v-list-item-subtitle>
 						</v-list-item-content>
 					</v-list-item>
-
-					<!-- <v-row align="center">
-						<v-col class="col-auto">
-							<v-img width="32" src="dochub.png"></v-img>
-						</v-col>
-						<v-col class="px-0">
-							<p class="subtitle-1 font-weight-medium">Lead Software Engineer</p>
-							<p class="overline">DocHub</p>
-						</v-col>
-						<v-col class="col-auto">
-							<span class="subtitle-2">Dochub</span>
-						</v-col>
-					</v-row> -->
-				</v-card-text>
+				</v-list>
 			</v-card>
 		</v-container>
 	</v-content>
@@ -60,10 +58,5 @@ import { Vue, Component } from 'vue-property-decorator'
 @Component
 export default class Content extends Vue {
 	store = store
-	experiences = [
-		['logo', 'title', 'company', 'dates', 'desc', 'stack'],
-		['logo', 'title', 'company', 'dates', 'desc', 'stack'],
-		['logo', 'title', 'company', 'dates', 'desc', 'stack'],
-	]
 }
 </script>

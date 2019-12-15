@@ -1,5 +1,5 @@
 <template>
-	<v-footer app height="36" color="black">
+	<v-footer app :height="height" color="black">
 		<v-spacer></v-spacer>
 		<v-spacer></v-spacer>
 		<v-icon dense color="grey" class="mdi-rotate-270">mdi-triangle</v-icon>
@@ -17,8 +17,9 @@ import { Vue, Component } from 'vue-property-decorator'
 
 @Component
 export default class Footer extends Vue {
+	height = 36
 	mounted() {
-		this.$vuetify.application.footer = 36
+		this.$vuetify.application.footer = this.height
 	}
 }
 </script>

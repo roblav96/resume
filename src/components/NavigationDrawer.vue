@@ -12,7 +12,7 @@
 		<template v-if="$vuetify.breakpoint.xsOnly">
 			<v-list>
 				<v-list-item
-					v-for="([href, icon, title], index) in store.socials"
+					v-for="({ href, icon, text }, index) in store.socials"
 					:key="index"
 					:href="href"
 					target="_blank"
@@ -21,7 +21,7 @@
 						<v-icon>{{ icon }}</v-icon>
 					</v-list-item-action>
 					<v-list-item-content>
-						<v-list-item-title>{{ title }}</v-list-item-title>
+						<v-list-item-title>{{ text }}</v-list-item-title>
 					</v-list-item-content>
 				</v-list-item>
 			</v-list>
@@ -30,7 +30,7 @@
 
 		<v-list>
 			<v-list-item
-				v-for="([href, icon, title], index) in store.contacts"
+				v-for="({ href, icon, text }, index) in store.contacts"
 				:key="index"
 				:href="href"
 				target="_blank"
@@ -39,7 +39,7 @@
 					<v-icon>{{ icon }}</v-icon>
 				</v-list-item-action>
 				<v-list-item-content>
-					<v-list-item-title>{{ title }}</v-list-item-title>
+					<v-list-item-title>{{ text }}</v-list-item-title>
 				</v-list-item-content>
 			</v-list-item>
 		</v-list>
@@ -47,12 +47,12 @@
 		<v-divider></v-divider>
 
 		<v-list>
-			<v-list-item v-for="([icon, title], index) in store.stacks" :key="index">
+			<v-list-item v-for="({ icon, text }, index) in store.stacks" :key="index">
 				<v-list-item-action>
 					<v-icon>{{ icon }}</v-icon>
 				</v-list-item-action>
 				<v-list-item-content>
-					<v-list-item-title>{{ title }}</v-list-item-title>
+					<v-list-item-title>{{ text }}</v-list-item-title>
 				</v-list-item-content>
 			</v-list-item>
 		</v-list>
@@ -67,7 +67,7 @@ import { Vue, Component } from 'vue-property-decorator'
 export default class NavigationDrawer extends Vue {
 	store = store
 	created() {
-		store.mini = this.$vuetify.breakpoint.smAndDown
+		this.store.mini = this.$vuetify.breakpoint.smAndDown
 	}
 }
 </script>
