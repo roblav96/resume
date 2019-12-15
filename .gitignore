@@ -2,6 +2,7 @@ dist
 docs
 logs
 node_modules
+src/assets
 
 *.log*
 .*cache*
