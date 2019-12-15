@@ -4,6 +4,7 @@
 	"description": "Robert Laverty's Resume",
 	"scripts": {
 		"build": "vue-cli-service build --dest docs",
+		"postinstall": "wget --quiet --output-document src/assets/logos.json https://raw.githubusercontent.com/gilbarbara/logos/master/logos.json ",
 		"start": "vue-cli-service serve"
 	},
 	"dependencies": {

@@ -13,6 +13,7 @@
 		"outDir": "docs",
 		"plugins": [{ "name": "ts-vue-plugin" }],
 		"preserveWatchOutput": true,
+		"resolveJsonModule": true,
 		"sourceMap": true,
 		"target": "esnext"
 	},

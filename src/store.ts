@@ -1,6 +1,10 @@
+import logos from './assets/logos.json'
 import Vue from 'vue'
 
+console.log(`logos ->`, logos)
+
 export default Vue.observable({
+	logos,
 	mini: false,
 	ready: false,
 
@@ -56,7 +60,7 @@ export default Vue.observable({
 			href: 'https://dochub.com/',
 			duration: 'May 2019 – Oct 2019',
 			description: `Scaled product, integrated Google Analytics App+Web, analyzed product usage, stripped out useless features`,
-			stack: 'Ruby on Rails | CoffeeScript | Ember.js',
+			tech: ['nf-dev-ruby_on_rails', 'nf-dev-coffeescript', 'nf-dev-ember'],
 		},
 		{
 			logo: 'kava.png',
@@ -65,7 +69,7 @@ export default Vue.observable({
 			href: 'https://www.kava.io/',
 			duration: 'Sep 2018 – Apr 2019',
 			description: `Designed, developed, and deployed customer-facing 'Kava Switch' blockchain platform`,
-			stack: '',
+			tech: '',
 		},
 		{
 			logo: 'gethuman.png',
@@ -74,7 +78,7 @@ export default Vue.observable({
 			href: 'https://gethuman.com/',
 			duration: 'Sep 2016 – Aug 2017',
 			description: `Designed, developed, and deployed their native mobile platform on iOS & Android using NativeScript`,
-			stack: '',
+			tech: '',
 		},
 		{
 			logo: 'dell-emc.png',
@@ -83,7 +87,7 @@ export default Vue.observable({
 			href: 'https://mitrend.com/',
 			duration: 'Sep 2015 – Dec 2015',
 			description: `Worked in an agile environment using scrum methodologies & Helped development of their scanner reporting user interface`,
-			stack: '',
+			tech: '',
 		},
 		{
 			logo: 'boustris.png',
@@ -92,7 +96,7 @@ export default Vue.observable({
 			href: 'http://boustrisandsons.com/',
 			duration: 'Sep 2012 – Aug 2015',
 			description: `Developed their fire alarm testing and inspection application & Troubleshoot, repair, and installed networked IT systems in commercial buildings`,
-			stack: '',
+			tech: '',
 		},
 		{
 			logo: 'facepunch.jpg',
@@ -101,7 +105,7 @@ export default Vue.observable({
 			href: 'https://facepunch.com/',
 			duration: 'Jul 2007 – Aug 2009',
 			description: `'Developed games on Steam using the Lua programming language`,
-			stack: '',
+			tech: '',
 		},
 	],
 })
