@@ -31,7 +31,6 @@ export default class App extends Vue {
 }
 </script>
 
-<style src="./assets/nerd-fonts-generated.css" />
 <style src="@ibm/plex/css/ibm-plex.css" />
 <style src="@mdi/font/css/materialdesignicons.css" />
 <style src="vuetify/dist/vuetify.css" />

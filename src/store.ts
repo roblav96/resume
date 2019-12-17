@@ -1,7 +1,8 @@
 import logos from './assets/logos.json'
+// import logos from './logos'
 import Vue from 'vue'
 
-console.log(`logos ->`, logos)
+
 
 export default Vue.observable({
 	logos,
