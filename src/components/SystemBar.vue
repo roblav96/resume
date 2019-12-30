@@ -1,5 +1,5 @@
 <template>
-	<v-system-bar app :height="height" color="primary">
+	<v-system-bar app dark :height="height" color="primary">
 		<v-spacer></v-spacer>
 		<v-icon>mdi-signal</v-icon>
 		<v-icon>mdi-signal-5g</v-icon>

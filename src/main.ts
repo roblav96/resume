@@ -12,6 +12,6 @@ new Vue({
 	render: h => h(App),
 	vuetify: new Vuetify({
 		icons: { iconfont: 'mdi' },
-		theme: { dark: true },
+		// theme: { dark: true },
 	}),
 }).$mount('#app')
