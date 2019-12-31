@@ -1,5 +1,4 @@
 module.exports = {
-	// runtimeCompiler: true,
 	css: { sourceMap: process.env.NODE_ENV == 'development' },
 	chainWebpack(config) {
 		config.devtool(process.env.NODE_ENV == 'development' ? 'eval-source-map' : 'source-map')

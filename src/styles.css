@@ -4,6 +4,12 @@
 	margin-bottom: 0px;
 }
 
+.v-list-item__title,
+.v-list-item__subtitle {
+	white-space: initial !important;
+	-webkit-line-clamp: initial !important;
+}
+
 /* typography */
 
 .v-application {

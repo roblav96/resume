@@ -8,7 +8,7 @@
 
 		<v-toolbar-title class="pl-0">
 			<p class="headline font-weight-bold">Robert Laverty</p>
-			<p class="caption font-mono secondary--text">Full-Stack Product Engineer</p>
+			<p class="caption font-mono font-weight-medium secondary--text">Full-Stack Product Engineer</p>
 		</v-toolbar-title>
 
 		<v-spacer></v-spacer>
@@ -28,12 +28,12 @@
 			<v-btn
 				text
 				color="secondary"
-				v-for="({ href, icon, text, subtext }, index) in store.socials"
+				v-for="({ href, icon, subtext }, index) in store.socials"
 				:key="index"
 				:href="href"
 				target="_blank"
 			>
-				<v-icon x-large>{{ icon }}</v-icon>
+				<v-icon x-large>mdi-{{ icon }}</v-icon>
 				<u class="primary--text ml-1 text-lowercase">/{{ subtext }}</u>
 			</v-btn>
 

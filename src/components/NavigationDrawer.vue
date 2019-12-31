@@ -3,10 +3,10 @@
 		app
 		permanent
 		touchless
-		bottom
 		:clipped="$vuetify.breakpoint.smAndDown"
 		:mini-variant="store.mini && $vuetify.breakpoint.smAndDown"
 		@click.native="store.mini = false"
+		v-touch="{ left: () => (store.mini = true), right: () => (store.mini = false) }"
 	>
 		<v-img eager src="https://avatars1.githubusercontent.com/u/1457327"></v-img>
 
@@ -19,7 +19,7 @@
 					target="_blank"
 				>
 					<v-list-item-avatar size="28" class="my-0">
-						<v-icon size="36">{{ icon }}</v-icon>
+						<v-icon size="36" color="secondary">mdi-{{ icon }}</v-icon>
 					</v-list-item-avatar>
 					<v-list-item-content>
 						<v-list-item-title class="primary--text">
@@ -39,12 +39,25 @@
 				target="_blank"
 			>
 				<v-list-item-avatar size="28" class="my-0">
-					<v-icon size="32">{{ icon }}</v-icon>
+					<v-icon size="32" color="secondary">mdi-{{ icon }}</v-icon>
 				</v-list-item-avatar>
-				<v-list-item-content color="primary">
-					<v-list-item-title class="primary--text">
-						<u>{{ text }}</u>
+				<v-list-item-content>
+					<v-list-item-title>
+						<u class="primary--text">{{ text }}</u>
 					</v-list-item-title>
+				</v-list-item-content>
+			</v-list-item>
+		</v-list>
+
+		<v-divider></v-divider>
+
+		<v-list>
+			<v-list-item v-for="([icon, text], index) in store.traits" :key="index">
+				<v-list-item-avatar class="my-0" size="28">
+					<v-icon size="32" color="secondary">mdi-{{ icon }}</v-icon>
+				</v-list-item-avatar>
+				<v-list-item-content class="py-2">
+					<v-list-item-subtitle class="body-2" v-html="text"></v-list-item-subtitle>
 				</v-list-item-content>
 			</v-list-item>
 		</v-list>
@@ -57,7 +70,7 @@
 					<v-img contain eager width="28" height="28" :alt="name" :src="svg"></v-img>
 				</v-list-item-avatar>
 				<v-list-item-content>
-					<v-list-item-title>{{ name }}</v-list-item-title>
+					<v-list-item-subtitle class="body-1">{{ name }}</v-list-item-subtitle>
 				</v-list-item-content>
 			</v-list-item>
 		</v-list>
