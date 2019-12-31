@@ -12,11 +12,10 @@
 		"noEmitHelpers": true,
 		"outDir": "docs",
 		"plugins": [{ "name": "ts-vue-plugin" }],
-		"resolveJsonModule": true,
 		"preserveWatchOutput": true,
 		"sourceMap": true,
 		"target": "esnext"
 	},
 	"exclude": ["docs", "node_modules"],
-	"include": ["src/**/*.d.ts", "src/**/*.ts", "src/**/*.json", "src/**/*.vue"]
+	"include": ["src/**/*.d.ts", "src/**/*.ts", "src/**/*.vue"]
 }

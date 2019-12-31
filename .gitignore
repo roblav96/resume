@@ -7,5 +7,3 @@ node_modules
 .*cache*
 .*env*
 .*local*
-
-src/assets/logos.json
