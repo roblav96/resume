@@ -28,12 +28,14 @@ export default Vue.observable({
 		{
 			href: 'https://github.com/roblav96',
 			icon: 'github-box',
+			svg: logos.github[1],
 			text: 'github/roblav96',
 			subtext: 'roblav96',
 		},
 		{
 			href: 'https://www.linkedin.com/in/roblav96/',
 			icon: 'linkedin-box',
+			svg: logos.linkedin[1],
 			text: 'linkedin/roblav96',
 			subtext: 'roblav96',
 		},

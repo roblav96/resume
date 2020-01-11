@@ -15,13 +15,14 @@
 
 		<v-btn
 			v-show="$vuetify.breakpoint.smAndDown"
-			icon
+			text
 			color="secondary"
 			class="d-print-none"
 			:href="pdfUrl"
 			target="_blank"
 		>
-			<v-icon size="46">mdi-pdf-box</v-icon>
+			<v-img contain eager width="36" height="36" :src="store.logos.pdf[1]"></v-img>
+			<!-- <v-icon size="46">mdi-pdf-box</v-icon> -->
 		</v-btn>
 
 		<v-toolbar-items v-show="$vuetify.breakpoint.mdAndUp">
@@ -38,7 +39,8 @@
 			</v-btn>
 
 			<v-btn text color="secondary" class="d-print-none" :href="pdfUrl" target="_blank">
-				<v-icon size="46">mdi-pdf-box</v-icon>
+				<v-img contain eager width="40" height="40" :src="store.logos.pdf[1]"></v-img>
+				<!-- <v-icon size="46">mdi-pdf-box</v-icon> -->
 			</v-btn>
 		</v-toolbar-items>
 	</v-app-bar>

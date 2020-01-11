@@ -18,12 +18,12 @@
 					:href="href"
 					target="_blank"
 				>
-					<v-list-item-avatar size="28" class="my-0">
+					<v-list-item-avatar tile size="28" class="my-0">
 						<v-icon size="36" color="secondary">mdi-{{ icon }}</v-icon>
 					</v-list-item-avatar>
 					<v-list-item-content>
-						<v-list-item-title class="primary--text">
-							<u>{{ text }}</u>
+						<v-list-item-title>
+							<u class="primary--text font-weight-medium">{{ text }}</u>
 						</v-list-item-title>
 					</v-list-item-content>
 				</v-list-item>
@@ -38,12 +38,12 @@
 				:href="href"
 				target="_blank"
 			>
-				<v-list-item-avatar size="28" class="my-0">
+				<v-list-item-avatar tile size="28" class="my-0">
 					<v-icon size="32" color="secondary">mdi-{{ icon }}</v-icon>
 				</v-list-item-avatar>
 				<v-list-item-content>
 					<v-list-item-title>
-						<u class="primary--text">{{ text }}</u>
+						<u class="primary--text font-weight-medium">{{ text }}</u>
 					</v-list-item-title>
 				</v-list-item-content>
 			</v-list-item>
@@ -53,7 +53,7 @@
 
 		<v-list>
 			<v-list-item v-for="([icon, text], index) in store.traits" :key="index">
-				<v-list-item-avatar class="my-0" size="28">
+				<v-list-item-avatar tile class="my-0" size="28">
 					<v-icon size="32" color="secondary">mdi-{{ icon }}</v-icon>
 				</v-list-item-avatar>
 				<v-list-item-content class="py-2">
@@ -66,7 +66,7 @@
 
 		<v-list>
 			<v-list-item v-for="([name, svg], index) in store.technologies" :key="index">
-				<v-list-item-avatar class="my-0" size="28" tile>
+				<v-list-item-avatar tile class="my-0" size="28">
 					<v-img contain eager width="28" height="28" :alt="name" :src="svg"></v-img>
 				</v-list-item-avatar>
 				<v-list-item-content>
