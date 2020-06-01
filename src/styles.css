@@ -13,7 +13,7 @@
 /* typography */
 
 .v-application {
-	font-family: 'IBM Plex Sans', BlinkMacSystemFont, -apple-system, 'Segoe UI', 'Roboto', 'Oxygen',
+	font-family: 'IBM Plex Sans Text', BlinkMacSystemFont, -apple-system, 'Segoe UI', 'Roboto', 'Oxygen',
 		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Helvetica', 'Arial',
 		sans-serif;
 }
@@ -44,37 +44,37 @@
 		sans-serif !important;
 }
 .v-application .title {
-	font-family: 'IBM Plex Sans', BlinkMacSystemFont, -apple-system, 'Segoe UI', 'Roboto', 'Oxygen',
+	font-family: 'IBM Plex Sans Text', BlinkMacSystemFont, -apple-system, 'Segoe UI', 'Roboto', 'Oxygen',
 		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Helvetica', 'Arial',
 		sans-serif !important;
 }
 .v-application .subtitle-1 {
-	font-family: 'IBM Plex Sans', BlinkMacSystemFont, -apple-system, 'Segoe UI', 'Roboto', 'Oxygen',
+	font-family: 'IBM Plex Sans Text', BlinkMacSystemFont, -apple-system, 'Segoe UI', 'Roboto', 'Oxygen',
 		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Helvetica', 'Arial',
 		sans-serif !important;
 }
 .v-application .subtitle-2 {
-	font-family: 'IBM Plex Sans', BlinkMacSystemFont, -apple-system, 'Segoe UI', 'Roboto', 'Oxygen',
+	font-family: 'IBM Plex Sans Text', BlinkMacSystemFont, -apple-system, 'Segoe UI', 'Roboto', 'Oxygen',
 		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Helvetica', 'Arial',
 		sans-serif !important;
 }
 .v-application .body-2 {
-	font-family: 'IBM Plex Sans', BlinkMacSystemFont, -apple-system, 'Segoe UI', 'Roboto', 'Oxygen',
+	font-family: 'IBM Plex Sans Text', BlinkMacSystemFont, -apple-system, 'Segoe UI', 'Roboto', 'Oxygen',
 		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Helvetica', 'Arial',
 		sans-serif !important;
 }
 .v-application .body-1 {
-	font-family: 'IBM Plex Sans', BlinkMacSystemFont, -apple-system, 'Segoe UI', 'Roboto', 'Oxygen',
+	font-family: 'IBM Plex Sans Text', BlinkMacSystemFont, -apple-system, 'Segoe UI', 'Roboto', 'Oxygen',
 		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Helvetica', 'Arial',
 		sans-serif !important;
 }
 .v-application .caption {
-	font-family: 'IBM Plex Sans', BlinkMacSystemFont, -apple-system, 'Segoe UI', 'Roboto', 'Oxygen',
+	font-family: 'IBM Plex Sans Text', BlinkMacSystemFont, -apple-system, 'Segoe UI', 'Roboto', 'Oxygen',
 		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Helvetica', 'Arial',
 		sans-serif !important;
 }
 .v-application .overline {
-	font-family: 'IBM Plex Sans', BlinkMacSystemFont, -apple-system, 'Segoe UI', 'Roboto', 'Oxygen',
+	font-family: 'IBM Plex Sans Text', BlinkMacSystemFont, -apple-system, 'Segoe UI', 'Roboto', 'Oxygen',
 		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Helvetica', 'Arial',
 		sans-serif !important;
 }

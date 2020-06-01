@@ -2,7 +2,7 @@
 	<v-content @click.native="store.mini = true">
 		<v-container class="pa-8">
 			<v-toolbar dense flat dark color="primary">
-				<v-icon size="28" class="mr-4">mdi-file-document-box</v-icon>
+				<v-icon size="28" class="mr-4">mdi-text-box</v-icon>
 				<v-toolbar-title class="font-weight-bold">README.md</v-toolbar-title>
 			</v-toolbar>
 			<v-card class="mb-8" tile outlined>
@@ -48,7 +48,7 @@
 									- {{ title }}
 								</span>
 								<br class="d-block d-md-none d-print-none" />
-								<span class="overline text--secondary">{{ duration }}</span>
+								<span class="caption text--secondary">{{ duration }}</span>
 							</v-list-item-title>
 							<v-list-item-subtitle class="">{{ description }}</v-list-item-subtitle>
 							<v-list-item-subtitle class="flex-row flex-wrap">
@@ -101,7 +101,7 @@
 									- {{ title }}
 								</span>
 								<br class="d-block d-md-none d-print-none" />
-								<span class="overline text--secondary">{{ duration }}</span>
+								<span class="caption text--secondary">{{ duration }}</span>
 							</v-list-item-title>
 							<v-list-item-subtitle class="">{{ description }}</v-list-item-subtitle>
 						</v-list-item-content>

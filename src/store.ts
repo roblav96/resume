@@ -54,7 +54,8 @@ export default Vue.observable({
 		logos.typescript,
 		logos.nodejs,
 		logos.vuejs,
-		logos.vuetify,
+		logos.react,
+		logos.rxjs,
 		logos.redis,
 		logos.mongodb,
 		logos.googleanalytics,
@@ -100,7 +101,15 @@ export default Vue.observable({
 			title: 'Creator',
 			duration: 'Sep 2018 – Dec 2019',
 			description: `Instantly stream Movies and TV Shows via Emby Media`,
-			technologies: [logos.typescript, logos.nodejs, logos.redis, logos.csharp, logos.dotnet],
+			technologies: [
+				logos.react,
+				logos.rxjs,
+				logos.typescript,
+				logos.nodejs,
+				logos.redis,
+				logos.csharp,
+				logos.dotnet,
+			],
 		},
 		{
 			href: 'https://www.kava.io/',
@@ -201,7 +210,8 @@ export default Vue.observable({
 
 	educations: [
 		{
-			href: 'https://drive.google.com/drive/folders/1n2ACUPYHlDKwC6tvhcjNTVTCDV1VAtxY?usp=sharing',
+			href:
+				'https://drive.google.com/drive/folders/1n2ACUPYHlDKwC6tvhcjNTVTCDV1VAtxY?usp=sharing',
 			logo: 'https://cdn.svgporn.com/logos/google-drive.svg',
 			company: 'My Awesome PDFs',
 			title: 'Personal collection of educational content',

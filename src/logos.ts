@@ -23,6 +23,10 @@ export default {
 	ubuntu: ['Ubuntu', 'https://cdn.worldvectorlogo.com/logos/ubuntu-4.svg'],
 	vuejs: ['Vue.js', 'https://cdn.worldvectorlogo.com/logos/vue-js-1.svg'],
 
+	preact: ['Preact', 'https://cdn.svgporn.com/logos/preact.svg'],
+	react: ['React', 'https://cdn.svgporn.com/logos/react.svg'],
+	rxjs: ['RxJS', 'https://cdn.svgporn.com/logos/reactivex.svg'],
+
 	ruby: ['Ruby', 'https://cdn.worldvectorlogo.com/logos/ruby.svg'],
 	rails: ['Rails', 'https://cdn.jsdelivr.net/gh/konpa/devicon/icons/rails/rails-plain.svg'],
 	emberjs: ['Ember.js', 'https://www.vectorlogo.zone/logos/emberjs/emberjs-icon.svg'],
