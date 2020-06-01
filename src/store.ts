@@ -27,14 +27,14 @@ export default Vue.observable({
 	socials: [
 		{
 			href: 'https://github.com/roblav96',
-			icon: 'github-box',
+			icon: 'github',
 			svg: logos.github[1],
 			text: 'github/roblav96',
 			subtext: 'roblav96',
 		},
 		{
 			href: 'https://www.linkedin.com/in/roblav96/',
-			icon: 'linkedin-box',
+			icon: 'linkedin',
 			svg: logos.linkedin[1],
 			text: 'linkedin/roblav96',
 			subtext: 'roblav96',
