@@ -73,7 +73,7 @@ export default Vue.observable({
 			href: 'https://dochub.com/',
 			logo: 'dochub.svg',
 			company: 'DocHub',
-			title: 'Lead Product Engineer',
+			title: 'Lead Software Engineer',
 			duration: 'May 2019 – Oct 2019',
 			description: `Scaled product, integrated analytics, studied usage metrics, stripped out useless features`,
 			technologies: [
