@@ -14,7 +14,8 @@ export default {
 	mongodb: ['MongoDB', 'https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg'],
 	nativescript: ['NativeScript', 'https://cdn.worldvectorlogo.com/logos/nativescript.svg'],
 	cordova: ['Apache Cordova', 'https://cdn.worldvectorlogo.com/logos/cordova.svg'],
-	nodejs: ['Node.js', 'https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg'],
+	nodejs: ['Node.js', 'https://cdn.svgporn.com/logos/nodejs-icon.svg'],
+	deno: ['Deno', 'https://cdn.svgporn.com/logos/deno.svg'],
 	redis: ['Redis', 'https://cdn.worldvectorlogo.com/logos/redis.svg'],
 	sublimetext: ['Sublime Text', 'https://cdn.worldvectorlogo.com/logos/sublime-text.svg'],
 	bash: ['Bash', 'https://cdn.worldvectorlogo.com/logos/bash-1.svg'],
@@ -52,7 +53,7 @@ export default {
 		'https://cdn.worldvectorlogo.com/logos/google-analytics-4.svg',
 	],
 
-	dotnet: ['Dotnet', 'https://www.vectorlogo.zone/logos/dotnet/dotnet-icon.svg'],
+	dotnet: ['Dotnet', 'https://cdn.svgporn.com/logos/dotnet.svg'],
 	csharp: ['C#', 'https://cdn.worldvectorlogo.com/logos/c--4.svg'],
 	roku: ['Roku', 'https://www.vectorlogo.zone/logos/roku/roku-icon.svg'],
 	appletv: ['Apple TV', 'https://cdn.worldvectorlogo.com/logos/apple-tv.svg'],
@@ -65,22 +66,27 @@ export default {
 	ethereum: ['Ethereum', 'https://cdn.worldvectorlogo.com/logos/ethereum-1.svg'],
 
 	angular: ['Angular', 'https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg'],
-	apple: ['Apple', 'https://cdn.worldvectorlogo.com/logos/apple-black.svg'],
+	apple: ['Apple', 'https://cdn.worldvectorlogo.com/logos/apple-13.svg'],
 	android: ['Android', 'https://cdn.worldvectorlogo.com/logos/android.svg'],
 	stripe: ['Stripe', 'https://cdn.worldvectorlogo.com/logos/stripe-2.svg'],
 	mocha: ['Mocha', 'https://cdn.svgporn.com/logos/mocha.svg'],
-	amplitude: ['Amplitude', 'https://www.vectorlogo.zone/logos/amplitude/amplitude-icon.svg'],
+	amplitude: ['Amplitude', 'https://cdn.svgporn.com/logos/amplitude-icon.svg'],
 
 	backbonejs: ['Backbone.js', 'https://cdn.svgporn.com/logos/backbone-icon.svg'],
 	marionettejs: ['Marionette.js', 'https://cdn.svgporn.com/logos/marionette.svg'],
 	highcharts: ['Highcharts', 'https://cdn.svgporn.com/logos/highcharts.svg'],
 
-	jquery: ['jQuery', 'https://www.vectorlogo.zone/logos/jquery/jquery-icon.svg'],
+	jquery: ['jQuery', 'https://cdn.worldvectorlogo.com/logos/jquery-4.svg'],
 	apache: ['Apache', 'https://cdn.svgporn.com/logos/apache.svg'],
 	lua: ['Lua', 'https://cdn.svgporn.com/logos/lua.svg'],
 
 	websocket: ['WebSocket', 'https://cdn.svgporn.com/logos/websocket.svg'],
 	bulma: ['Bulma', 'https://cdn.svgporn.com/logos/bulma.svg'],
+
+	laravel: ['Laravel', 'https://cdn.svgporn.com/logos/laravel.svg'],
+	php: ['PHP', 'https://cdn.svgporn.com/logos/php.svg'],
+	figma: ['Figma', 'https://cdn.svgporn.com/logos/figma.svg'],
+	nuxt: ['Nuxt', 'https://cdn.svgporn.com/logos/nuxt-icon.svg'],
 
 	// ____: ['____', 'https://cdn.worldvectorlogo.com/logos/____.svg'],
 }
