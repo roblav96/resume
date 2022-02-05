@@ -27,8 +27,10 @@
 				<v-list class="px-2">
 					<v-list-item
 						three-line
-						v-for="({ logo, title, company, href, duration, description, technologies },
-						index) in store.experiences"
+						v-for="(
+							{ logo, title, company, href, duration, description, technologies },
+							index
+						) in store.experiences"
 						:key="index"
 					>
 						<v-list-item-avatar :tile="!logo.includes('gethuman')" size="48">
@@ -80,8 +82,9 @@
 			<v-card class="mb-0" tile outlined>
 				<v-list class="px-2">
 					<v-list-item
-						v-for="({ logo, title, company, href, duration, description },
-						index) in store.educations"
+						v-for="(
+							{ logo, title, company, href, duration, description }, index
+						) in store.educations"
 						:key="index"
 					>
 						<v-list-item-avatar tile size="48">

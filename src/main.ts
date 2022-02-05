@@ -9,7 +9,7 @@ Vue.config.productionTip = false
 Vue.use(Vuetify)
 
 new Vue({
-	render: h => h(App),
+	render: (h) => h(App),
 	vuetify: new Vuetify({
 		icons: { iconfont: 'mdi' },
 		// theme: { dark: true },

@@ -8,7 +8,9 @@
 
 		<v-toolbar-title class="pl-0">
 			<p class="headline font-weight-bold">Robert Laverty</p>
-			<p class="caption font-mono font-weight-medium secondary--text">Full-Stack Software Engineer</p>
+			<p class="caption font-mono font-weight-medium secondary--text">
+				Full-Stack Software Engineer
+			</p>
 		</v-toolbar-title>
 
 		<v-spacer></v-spacer>
