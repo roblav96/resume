@@ -72,7 +72,7 @@ export default Vue.observable({
 			href: 'https://joinjuno.com/',
 			logo: 'leveredge.png',
 			company: 'LeverEdge',
-			title: 'Lead Product Engineer',
+			title: 'Lead Software Engineer',
 			duration: 'Feb 2020 – Apr 2020',
 			description: `Upgraded frontend to use Nuxt.js, created a LinkedIn scraper with headless Playwright/Puppeteer, then pandemic...`,
 			technologies: [
