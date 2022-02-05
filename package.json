@@ -3,7 +3,9 @@
 	"version": "0.0.0",
 	"description": "Robert Laverty's Resume",
 	"scripts": {
-		"build": "vue-cli-service build --dest docs",
+		"build": "run-s build:vue build:pdf",
+		"build:vue": "vue-cli-service build --dest docs",
+		"build:pdf": "cp -v -f -t docs public/*.pdf",
 		"start": "vue-cli-service serve"
 	},
 	"dependencies": {
@@ -18,6 +20,7 @@
 		"@vue/cli-plugin-babel": "^4.4.1",
 		"@vue/cli-plugin-typescript": "^4.4.1",
 		"@vue/cli-service": "^4.4.1",
+		"npm-run-all": "^4.1.5",
 		"ts-vue-plugin": "^0.1.2",
 		"typescript": "^3.9.3",
 		"vue-template-compiler": "^2.6.11"
