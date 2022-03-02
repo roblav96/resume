@@ -69,6 +69,24 @@ export default Vue.observable({
 
 	experiences: [
 		{
+			href: 'https://github.com/roblav96/futon-media',
+			logo: 'emby.png',
+			company: 'Futon Media',
+			title: 'Creator',
+			duration: 'Sep 2018 – Feb 2022',
+			description: `Instantly stream Movies and TV Shows via Emby Media`,
+			technologies: [
+				logos.typescript,
+				logos.nodejs,
+				logos.deno,
+				logos.react,
+				logos.rxjs,
+				logos.redis,
+				logos.csharp,
+				logos.dotnet,
+			],
+		},
+		{
 			href: 'https://joinjuno.com/',
 			logo: 'leveredge.png',
 			company: 'LeverEdge',
@@ -110,24 +128,6 @@ export default Vue.observable({
 				logos.ec2,
 				logos.iam,
 				logos.rds,
-			],
-		},
-		{
-			href: 'https://github.com/roblav96/futon-media',
-			logo: 'emby.png',
-			company: 'Futon Media',
-			title: 'Creator',
-			duration: 'Sep 2018 – Dec 2019',
-			description: `Instantly stream Movies and TV Shows via Emby Media`,
-			technologies: [
-				logos.typescript,
-				logos.nodejs,
-				logos.deno,
-				logos.react,
-				logos.rxjs,
-				logos.redis,
-				logos.csharp,
-				logos.dotnet,
 			],
 		},
 		{
@@ -173,7 +173,6 @@ export default Vue.observable({
 		{
 			href: 'https://gethuman.com/',
 			logo: 'gethuman.png',
-			circle: true,
 			company: 'GetHuman',
 			title: 'Senior Full-Stack Software Engineer',
 			duration: 'Sep 2016 – Aug 2017',
