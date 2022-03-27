@@ -25,7 +25,7 @@ export default {
 	vuejs: ['Vue.js', 'https://cdn.worldvectorlogo.com/logos/vue-js-1.svg'],
 
 	preact: ['Preact', 'https://cdn.svgporn.com/logos/preact.svg'],
-	react: ['React', 'https://cdn.svgporn.com/logos/react.svg'],
+	react: ['React.js', 'https://cdn.svgporn.com/logos/react.svg'],
 	rxjs: ['RxJS', 'https://cdn.svgporn.com/logos/reactivex.svg'],
 
 	ruby: ['Ruby', 'https://cdn.worldvectorlogo.com/logos/ruby.svg'],
