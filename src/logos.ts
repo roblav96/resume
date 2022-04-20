@@ -82,6 +82,7 @@ export default {
 
 	websocket: ['WebSocket', 'https://cdn.svgporn.com/logos/websocket.svg'],
 	bulma: ['Bulma', 'https://cdn.svgporn.com/logos/bulma.svg'],
+	tailwindcss: ['Tailwind', 'https://cdn.svgporn.com/logos/tailwindcss-icon.svg'],
 
 	laravel: ['Laravel', 'https://cdn.svgporn.com/logos/laravel.svg'],
 	php: ['PHP', 'https://cdn.svgporn.com/logos/php.svg'],
