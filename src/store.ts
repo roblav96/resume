@@ -207,24 +207,6 @@ export default Vue.observable({
 				logos.highcharts,
 			],
 		},
-		{
-			href: 'http://boustrisandsons.com/',
-			logo: 'boustris.png',
-			company: 'Boustris & Sons',
-			title: 'Head of Information Technology',
-			duration: 'Sep 2012 – Aug 2015',
-			description: `Developed their fire alarm testing and inspection application & troubleshoot repair installed networked IT systems in commercial buildings`,
-			technologies: [logos.cordova, logos.bootstrap, logos.jquery, logos.apache],
-		},
-		{
-			href: 'https://facepunch.com/',
-			logo: 'facepunch.svg',
-			company: 'Facepunch Studios',
-			title: 'Game Developer',
-			duration: 'Jul 2007 – Aug 2009',
-			description: `Developed games on Steam using the Lua programming language`,
-			technologies: [logos.lua],
-		},
 	],
 
 	educations: [
