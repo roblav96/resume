@@ -3,9 +3,10 @@
 	"version": "0.0.0",
 	"description": "Robert Laverty's Resume",
 	"scripts": {
-		"build": "run-s build:vue build:pdf",
+		"build": "run-s build:vue build:pdf:*",
 		"build:vue": "vue-cli-service build --dest docs",
-		"build:pdf": "cp -v -f -t docs public/*.pdf",
+		"build:pdf:docs": "cp -v -f -t docs public/*.pdf",
+		"build:pdf:downloads": "cp -v -f -t ~/Downloads public/*.pdf",
 		"start": "vue-cli-service serve"
 	},
 	"dependencies": {
