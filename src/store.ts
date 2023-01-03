@@ -73,7 +73,7 @@ export default Vue.observable({
 			logo: 'exacare.png',
 			company: 'ExaCare',
 			title: 'Founding Software Engineer',
-			duration: 'Mar 2022 – Dec 2022',
+			duration: 'May 2022 – Dec 2022',
 			description: `Built the frontend from the ground up based on Figma designs`,
 			technologies: [
 				logos.typescript,
