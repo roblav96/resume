@@ -55,6 +55,7 @@ export default {
 		'Google Analytics',
 		'https://cdn.worldvectorlogo.com/logos/google-analytics-4.svg',
 	],
+	sentry: ['Sentry', 'https://cdn.svgporn.com/logos/sentry-logo.svg'],
 
 	dotnet: ['Dotnet', 'https://cdn.svgporn.com/logos/dotnet.svg'],
 	csharp: ['C#', 'https://cdn.worldvectorlogo.com/logos/c--4.svg'],

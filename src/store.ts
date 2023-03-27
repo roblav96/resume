@@ -69,12 +69,21 @@ export default Vue.observable({
 
 	experiences: [
 		{
+			href: 'https://www.crowdpass.co/',
+			logo: 'crowdpass.svg',
+			company: 'CrowdPass',
+			title: 'Lead Frontend Software Engineer',
+			duration: 'Jan 2023 – Current',
+			description: `Event landing page, event appearance settings, ticketing dashboard, attendee badge printing, etc.`,
+			technologies: [logos.typescript, logos.react, logos.nodejs, logos.figma, logos.sentry],
+		},
+		{
 			href: 'https://www.exacare.com/',
 			logo: 'exacare.png',
 			company: 'ExaCare',
-			title: 'Founding Software Engineer',
+			title: 'Founding Frontend Software Engineer',
 			duration: 'May 2022 – Dec 2022',
-			description: `Built the frontend from the ground up based on Figma designs`,
+			description: `Built the entire frontend from the ground up, precisely following a Figma design`,
 			technologies: [
 				logos.typescript,
 				logos.react,

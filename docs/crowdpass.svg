@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="30px" viewBox="0 0 31 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>dark-logo</title>
+    <defs>
+        <linearGradient x1="15.5876238%" y1="50.896815%" x2="84.9694675%" y2="49.4328462%" id="linearGradient-1">
+            <stop stop-color="#0077F2" offset="12.85%"></stop>
+            <stop stop-color="#0067F2" offset="52.76%"></stop>
+            <stop stop-color="#004EF2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="58.2811638%" y1="-108.926123%" x2="46.3703889%" y2="102.653253%" id="linearGradient-2">
+            <stop stop-color="#0A50F7" offset="60.61%"></stop>
+            <stop stop-color="#0A50F7" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dark-logo" fill-rule="nonzero">
+            <path d="M6.99053,23.0842 C6.971,23.0647 6.95147,23.0452 6.91241,23.0258 C2.45985,18.5647 2.49891,11.3374 6.971,6.91537 C11.2087,2.72706 17.8876,2.51277 22.3597,6.27251 L24.8789,3.6816 C19.0007,-1.44177 10.0761,-1.22749 4.45179,4.34394 C-1.44591,10.1881 -1.46544,19.6751 4.37367,25.5582 C4.3932,25.5777 4.41273,25.5972 4.45179,25.6167 C10.037,31.1686 18.9031,31.4219 24.8203,26.3959 L22.223,23.8634 C17.7118,27.4673 11.1697,27.2141 6.99053,23.0842 Z" id="Path" fill="url(#linearGradient-1)"></path>
+            <path d="M23.8644,22.227 L26.4617,24.74 C31.2463,19.1686 31.2853,10.9283 26.5398,5.3374 L24.0011,7.92831 C27.321,12.1361 27.2819,18.0971 23.8644,22.227 Z" id="Path" fill="url(#linearGradient-2)"></path>
+        </g>
+    </g>
+</svg>
