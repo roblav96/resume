@@ -56,6 +56,7 @@ export default {
 		'https://cdn.worldvectorlogo.com/logos/google-analytics-4.svg',
 	],
 	sentry: ['Sentry', 'https://cdn.svgporn.com/logos/sentry-logo.svg'],
+	githubactions: ['GitHub Actions', 'https://cdn.svgporn.com/logos/github-actions.svg'],
 
 	dotnet: ['Dotnet', 'https://cdn.svgporn.com/logos/dotnet.svg'],
 	csharp: ['C#', 'https://cdn.worldvectorlogo.com/logos/c--4.svg'],
