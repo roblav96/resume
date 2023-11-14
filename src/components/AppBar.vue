@@ -37,7 +37,7 @@
 				target="_blank"
 			>
 				<v-icon x-large>mdi-{{ icon }}</v-icon>
-				<u class="primary--text ml-1 text-lowercase">/{{ subtext }}</u>
+				<u class="primary--text font-weight-bold ml-1 text-lowercase">/{{ subtext }}</u>
 			</v-btn>
 
 			<v-btn text color="secondary" class="d-print-none" :href="pdfUrl" target="_blank">

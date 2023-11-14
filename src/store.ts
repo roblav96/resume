@@ -63,7 +63,6 @@ export default Vue.observable({
 		logos.googleanalytics,
 		logos.terminal,
 		logos.electron,
-		logos.nativescript,
 		logos.sublimetext,
 	],
 
@@ -73,7 +72,7 @@ export default Vue.observable({
 			logo: 'crowdpass.svg',
 			company: 'CrowdPass',
 			title: 'Lead Software Engineer',
-			duration: 'Jan 2023 – Oct 2023',
+			duration: 'Jan 2023 – Current',
 			description: `Designed and built the frontend, backend, and mobile app for an RFID+NFC wristband entry access system, then deployed to events hosted by Lamborghini, Ecolab, and Palm Springs Surf Club`,
 			// description: `Event landing page, event appearance settings, ticketing dashboard, attendee badge printing, etc.`,
 			technologies: [
@@ -268,7 +267,7 @@ export default Vue.observable({
 			company: 'University of Rhode Island',
 			title: 'Computer Science',
 			duration: 'Sep 2009 – June 2010',
-			description: `Voluntarily resigned due to financial constraints`,
+			description: `Voluntarily resigned due to outdated curriculum`,
 		},
 	],
 })
