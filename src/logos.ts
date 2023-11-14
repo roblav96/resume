@@ -93,6 +93,7 @@ export default {
 	php: ['PHP', 'https://cdn.svgporn.com/logos/php.svg'],
 	figma: ['Figma', 'https://cdn.svgporn.com/logos/figma.svg'],
 	nuxt: ['Nuxt', 'https://cdn.svgporn.com/logos/nuxt-icon.svg'],
+	docker: ['Docker', 'https://cdn.svgporn.com/logos/docker-icon.svg'],
 
 	// ____: ['____', 'https://cdn.worldvectorlogo.com/logos/____.svg'],
 }

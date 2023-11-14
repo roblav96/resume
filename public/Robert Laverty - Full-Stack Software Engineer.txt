@@ -1,0 +1,12 @@
+Robert Laverty
+Full-Stack Software Engineer
+
+Resume: https://roblav96.github.io/resume/
+
+Expert: TypeScript + React + Docker
+Intermediate: Python + PostgreSQL
+Beginner: Django + Flask
+
+Please feel free to reach me at 401-203-3195 or email me at roblav96@gmail.com
+
+Thank you!
