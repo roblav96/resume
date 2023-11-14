@@ -73,7 +73,7 @@ export default Vue.observable({
 			company: 'CrowdPass',
 			title: 'Lead Software Engineer',
 			duration: 'Jan 2023 – Current',
-			description: `Designed and built the frontend, backend, and mobile app for an RFID+NFC wristband entry access system, then deployed to events hosted by Lamborghini, Ecolab, and Palm Springs Surf Club`,
+			description: `Designed and built the frontend, backend, and mobile app for an RFID+NFC wristband entry access system, then deployed to events hosted by Lamborghini, Ecolab, Palm Springs Surf Club, and Jonas Brothers Tour`,
 			// description: `Event landing page, event appearance settings, ticketing dashboard, attendee badge printing, etc.`,
 			technologies: [
 				logos.typescript,
