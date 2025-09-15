@@ -20,12 +20,12 @@ export default {
 	nodejs: ['Node.js', 'https://cdn.svgporn.com/logos/nodejs-icon.svg'],
 	deno: ['Deno', 'https://cdn.svgporn.com/logos/deno.svg'],
 	redis: ['Redis', 'https://cdn.worldvectorlogo.com/logos/redis.svg'],
-	sublimetext: ['Sublime Text', 'https://cdn.worldvectorlogo.com/logos/sublime-text.svg'],
+	sublimetext: ['Sublime Text', 'https://cdn.svgporn.com/logos/sublimetext-icon.svg'],
 	bash: ['Bash', 'https://cdn.worldvectorlogo.com/logos/bash-1.svg'],
 	terminal: ['Terminal / Bash', 'https://cdn.jsdelivr.net/gh/file-icons/icons/svg/Terminal.svg'],
 	typescript: ['TypeScript', 'https://cdn.worldvectorlogo.com/logos/typescript.svg'],
 	ubuntu: ['Ubuntu', 'https://cdn.worldvectorlogo.com/logos/ubuntu-4.svg'],
-	vuejs: ['Vue.js', 'https://cdn.worldvectorlogo.com/logos/vue-js-1.svg'],
+	vuejs: ['Vue.js', 'https://cdn.svgporn.com/logos/vue.svg'],
 
 	preact: ['Preact', 'https://cdn.svgporn.com/logos/preact.svg'],
 	react: ['React.js', 'https://cdn.svgporn.com/logos/react.svg'],
@@ -39,7 +39,7 @@ export default {
 	opsworks: ['OpsWorks', 'https://cdn.worldvectorlogo.com/logos/aws-opsworks.svg'],
 	nginx: ['Nginx', 'https://www.vectorlogo.zone/logos/nginx/nginx-icon.svg'],
 
-	ec2: ['EC2', 'https://cdn.worldvectorlogo.com/logos/aws-ec2.svg'],
+	ec2: ['EC2', 'https://cdn.svgporn.com/logos/aws-ec2.svg'],
 	s3: ['S3', 'https://cdn.worldvectorlogo.com/logos/aws-s3.svg'],
 	route53: ['Route53', 'https://cdn.worldvectorlogo.com/logos/aws-route53.svg'],
 	dynamodb: ['DynamoDB', 'https://cdn.worldvectorlogo.com/logos/aws-dynamodb.svg'],
@@ -57,6 +57,8 @@ export default {
 	],
 	sentry: ['Sentry', 'https://cdn.svgporn.com/logos/sentry-logo.svg'],
 	githubactions: ['GitHub Actions', 'https://cdn.svgporn.com/logos/github-actions.svg'],
+	supabase: ['Supabase', 'https://cdn.svgporn.com/logos/supabase-icon.svg'],
+	vercel: ['Vercel', 'https://cdn.svgporn.com/logos/vercel-icon.svg'],
 
 	dotnet: ['Dotnet', 'https://cdn.svgporn.com/logos/dotnet.svg'],
 	csharp: ['C#', 'https://cdn.worldvectorlogo.com/logos/c--4.svg'],
@@ -72,7 +74,7 @@ export default {
 
 	angular: ['Angular', 'https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg'],
 	apple: ['Apple', 'https://cdn.worldvectorlogo.com/logos/apple-13.svg'],
-	android: ['Android', 'https://cdn.worldvectorlogo.com/logos/android.svg'],
+	android: ['Android', 'https://cdn.svgporn.com/logos/android-icon.svg'],
 	stripe: ['Stripe', 'https://cdn.worldvectorlogo.com/logos/stripe-2.svg'],
 	mocha: ['Mocha', 'https://cdn.svgporn.com/logos/mocha.svg'],
 	amplitude: ['Amplitude', 'https://cdn.svgporn.com/logos/amplitude-icon.svg'],

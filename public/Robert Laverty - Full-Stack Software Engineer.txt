@@ -1,11 +1,12 @@
 Robert Laverty
 Full-Stack Software Engineer
+New York City - Open to in office commuting
 
 Resume: https://roblav96.github.io/resume/
 
-Expert: TypeScript + React + Docker
-Intermediate: Python + PostgreSQL
-Beginner: Django + Flask
+Expert: TypeScript + Node.js + React.js + AWS
+Intermediate: MySQL + Python
+Beginner: Java Spring Boot
 
 Please feel free to reach me at 401-203-3195 or email me at roblav96@gmail.com
 

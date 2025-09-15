@@ -55,7 +55,10 @@ export default Vue.observable({
 		logos.nodejs,
 		logos.react,
 		logos.vuejs,
+		logos.tailwindcss,
 		logos.aws,
+		logos.supabase,
+		logos.vercel,
 		logos.docker,
 		logos.redis,
 		logos.postgresql,
@@ -68,13 +71,30 @@ export default Vue.observable({
 
 	experiences: [
 		{
+			href: 'https://realcount.pro/',
+			logo: 'rc-logo-blue-small.png',
+			company: 'RealCount',
+			title: 'Lead Software Engineer',
+			duration: 'Jan 2024 – Current',
+			description: `Live music ticket sales data aggregator from all ticket platforms, used by artists, agencies, promoters, and venue owners`,
+			technologies: [
+				logos.typescript,
+				logos.react,
+				logos.tailwindcss,
+				logos.nodejs,
+				logos.postgresql,
+				logos.supabase,
+				logos.vercel,
+				logos.docker,
+			],
+		},
+		{
 			href: 'https://www.crowdpass.co/',
 			logo: 'crowdpass.svg',
 			company: 'CrowdPass',
 			title: 'Lead Software Engineer',
-			duration: 'Jan 2023 – Current',
+			duration: 'Jan 2023 – Nov 2023',
 			description: `Designed and built the frontend, backend, and mobile app for an RFID+NFC wristband entry access system, then deployed to events hosted by Lamborghini, Ecolab, Palm Springs Surf Club, and Jonas Brothers Tour`,
-			// description: `Event landing page, event appearance settings, ticketing dashboard, attendee badge printing, etc.`,
 			technologies: [
 				logos.typescript,
 				logos.react,
